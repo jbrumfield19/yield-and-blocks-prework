@@ -1,4 +1,4 @@
-def hello_t(Array)
+def hello_t(array)
   i=0
  while i < Array.length 
  yield Array[i]
@@ -7,5 +7,5 @@ def hello_t(Array)
 
 end
 
-hello_t(Array)
+hello_t(array)
 
